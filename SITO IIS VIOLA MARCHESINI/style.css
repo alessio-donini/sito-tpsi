@@ -1,0 +1,1146 @@
+.head-banner{
+    background-color: #545b62;
+    padding-top: 8rem;
+    padding-bottom: 8rm;
+    background-image: url('https://www.iisviolamarchesini.edu.it/j2/images/itis_small.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rm;
+}
+
+/* Style della sezione in cima alla pagina */
+#section-top-page {
+    background-color: rgba(236, 250, 250, 0.507);
+}
+
+/* Style della scritta che si trova in cima alla pagina */
+#top-page-title {
+    text-align: center;
+    justify-content: center;
+    font-size: 3vw;
+    width: 100%;
+}
+
+h1.mt-1 {
+    margin-top: 20px !important;
+}
+
+/* Style per le immagini che si trovano in cima alla pagina */
+#img-top-page-repubblica-it {
+    width: 20%;
+    max-width: 80px;
+    height: auto;
+    float: left;
+    display: flex;
+}
+
+#img-top-page-certiquality {
+    width: 28%;
+    max-width: 200px;
+    height: auto;
+    float: right;
+    display: flex;
+}
+
+#img-top-page-logo-itis {
+    width: 22%;
+    max-width: 100px;
+    height: auto;
+    display: flex;
+    float: right;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+/* Personalizzazione della barra di navigazione*/
+#navbar {
+    background-color: rgb(33, 206, 212);
+    width: 100%;
+}
+
+.active li:hover {
+    background: rgb(95, 244, 247);
+    border-radius: 0.5vw;
+}
+
+#img-home-navbar {
+    width: 100%;
+    height: 100%;
+}
+
+a.navbar-brand:hover {
+    background: rgb(95, 244, 247);
+    border-radius: 0.5vw;
+}
+
+/* Personalizzazione schermata centrale della pagina */
+/* Prima riga */
+#mid-page-row1-sx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row1-mid{
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgb(235, 235, 235);
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row1-dx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+/* Seconda riga */
+
+.dx-mid-page-row2{
+    background-color: rgb(235, 235, 235);
+    margin-top: 4%;
+    color: rgb(101, 101, 255);
+}
+
+#title-row2-dx {
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-sx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-mid{
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgb(235, 235, 235);
+}
+
+#mid-page-title-row2-mid{
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-text-mid{
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-table-mid{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+/* Terza riga */
+
+#mid-page-row3-sx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+.mid-page-row3-dx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 4%;
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row3-text-mid{
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row3-subtitle-mid{
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row3-text-bold-red{
+    color: red;
+}
+
+/* Style delle informazioni che si trovano in fondo alla pagina */
+#footer {
+    background-color: rgb(91, 107, 253);
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    bottom: 0%;
+}
+
+#footer-link{
+    color: rgb(129, 213, 228);
+}
+
+/* Per togliere la riga dei link */
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+/* media queries   max-width: X ==>  (pixel schermo) < X  |  min-width:X ==>   (pixel schermo) >= X   */
+
+@media screen and (max-width: 321px) { /* XXS --> iPhone 5/SE */
+
+    #mid-page-row2-row1-img-mask {
+        margin-right: 5px !important;
+    }
+
+    #title-row3-sx {
+        font-size: 5.5vw;
+    }
+
+    #mid-page-row3-row1-img-classeviva{
+        width: 140px !important;
+    }
+
+    #mid-page-row3-row2-img-albo-online{
+        width: 140px !important;
+    }
+
+    #mid-page-row3-row3-img-trasparente-amministrazione{
+        width: 140px !important;
+    }
+
+    #mid-page-row3-row4-img-comunicati{
+        width: 140px !important;
+    }
+
+    #mid-page-row3-row5-img-scuola-territorio{
+        width: 140px !important;
+    }
+
+    #mid-page-row3-row1-educazione-civica {
+        width: 110px !important;
+        margin-top: 15px !important;
+    }
+
+    #mid-page-row3-row2-moodle{
+        width: 115px !important;
+    }
+
+    #mid-page-row3-row2-bionet{
+        width: 115px !important;
+    }
+
+    #link-row2-row3-dx {
+        font-size: 11px !important;
+    }
+
+    #dx-mid-page-row2-row3-subtitle {
+        font-size: 11px !important;
+    }
+
+    #dx-mid-page-row2-row3-title {
+        font-size: 13px !important;
+    }
+
+    #img-mid-pon-studenti{
+        width: 100px !important;
+    }
+
+    #link-row2-sx {
+        margin-top: 10px  !important;
+    }
+
+    /* wac = webinar con Accademia dei Concordi */
+    #mid-page-row3-text-link-wac-mid {
+        font-size: 12px !important;
+    }
+
+    #mid-page-row3-text-email-mid {
+        font-size: 4.6vw !important;
+    }
+}
+
+@media screen and (max-width: 575px) { /* XS */
+
+    /* Parte superiore della pagina */
+
+    #home-navbar {
+        width: 40px;
+        height: auto;
+    }
+
+    /* Prima riga della pagina */
+
+    #mid-page-row1-title-mid {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    #mid-page-row1-text-mid {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #img-mid-page-row1-dx-pon {
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-left: 10px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row1-mid {
+        border-radius: 10px;
+    }
+
+    #mid-page-title-row1-dx{
+        text-align: right;
+        font-size: 15px;
+    }
+
+    #mid-page-link-row1-sx {
+        font-size: 15px;
+    }
+
+    #mid-page-title-row1-sx {
+        margin-bottom: 5px;
+    }
+
+    #mid-page-row1-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #mid-page-row1-dx {
+        right: 5px;
+        border-radius: 10px;
+    }
+
+    /* Seconda riga */
+
+    #mid-page-row2-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #title-row2-sx {
+        margin-bottom: 10px;
+    }
+
+    #link-row2-sx {
+        font-size: 4vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #title-row2-row1-dx{
+        text-align: center;
+        font-size: 2.4vw;
+        margin-top: 5px;
+    }
+
+    #mid-page-row2-row1-img-mask {
+        width: 70%;
+        height: auto;
+        float: right;
+        margin-right: 15%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-row1-img-gstreet{
+        width: 80%;
+        height: auto;
+        float: right;
+        margin-right: 10%;
+        margin-bottom: 5px;
+    }
+
+    #mid-page-title-row2-mid {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #dx-mid-page-row2-row1 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #dx-mid-page-row2-row2 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #dx-mid-page-row2-row3 {
+        border-radius: 10px;
+        height: 200px;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #dx-mid-page-row2-row2-title {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #dx-mid-page-row2-row3-title {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    #dx-mid-page-row2-row3-subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #link-row2-row3-dx {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    #dx-mid-page-row2-row4-title {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    #img-mid-pon-studenti{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    #dx-mid-page-row2-row4 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row2-mid {
+        border-radius: 10px;
+    }
+
+    #mid-page-row2-text-mid {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-link-mid {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-table-mid{
+        width: 100%;
+        height: 40px;
+    }
+
+    /* Terza riga */
+
+    #mid-page-row3-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #title-row3-sx {
+        margin-bottom: 5px;
+        margin-top: 7px;
+    }
+
+    #mid-page-row3-row1-img-classeviva{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 3px;
+    }
+
+    #mid-page-row3-row2-img-albo-online{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row3-img-trasparente-amministrazione{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row4-img-comunicati{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row5-img-scuola-territorio{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #link-row3-sx {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row1-dx {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row3-row2-dx {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row3-row3-dx {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row3-row1-educazione-civica {
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row2-moodle{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row2-bionet{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-text-mid{
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-text-link-mid {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    /* wac = webinar con Accademia dei Concordi */
+    #mid-page-row3-text-link-wac-mid {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-link-mid {
+        font-size: 2.7vw;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-subtitle-mid{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    #mid-page-row3-title-mid-marked-text{
+        background-color: yellow;
+    }
+
+    #img-mid-opendays{
+        width: 100% ;
+        height: auto;
+        float: right;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+
+    /* Piè di pagina */
+
+    #footer {
+        font-size: 10px;
+    }
+
+    /* Toglie i puntini che ci sono negli elenchi */
+
+    #mid-page-list-text-mid{
+        list-style-type:none;
+    }
+}
+
+@media screen and (min-width: 576px) { /* SM */
+
+    #home-navbar {
+        width: 40px;
+        height: auto;
+    }
+
+    /* Prima riga */
+
+    #mid-page-row1-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #mid-page-row1-mid {
+        border-radius: 10px;
+    }
+
+    #mid-page-row1-dx {
+        right: 5px;
+        border-radius: 10px;
+    }
+    
+    #mid-page-row1-title-mid {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row1-text-mid {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #img-mid-page-row1-dx-pon {
+        width: 90%;
+        height: auto;
+        float: right;
+        margin-right: 5%;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-title-row1-dx{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    #mid-page-title-row1-sx {
+        margin-bottom: 5%;
+    }
+
+    #mid-page-link-row1-sx {
+        font-size: 3vw;
+        margin-top: 5%;
+    }
+
+    /* Seconda riga */
+
+    #mid-page-row2-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #dx-mid-page-row2-row1 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: 100%;
+    }
+
+    #title-row2-row1-dx{
+        text-align: center;
+        font-size: 2.4vw;
+        margin-top: 5px;
+    }
+
+    #title-row2-sx {
+        margin-bottom: 10px;
+        font-size: 4vw;
+    }
+
+    #link-row2-sx {
+        font-size: 3.5vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #mid-page-row2-row1-img-mask {
+        width: 70%;
+        height: auto;
+        float: right;
+        margin-right: 15%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-row1-img-gstreet{
+        width: 80%;
+        height: auto;
+        float: right;
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-title-row2-mid {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #dx-mid-page-row2-row2 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+    }
+
+    #dx-mid-page-row2-row3 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+    }
+
+    #dx-mid-page-row2-row2-title {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+
+    #dx-mid-page-row2-row3-title {
+        font-size: 3vw;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    #dx-mid-page-row2-row3-subtitle {
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    #link-row2-row3-dx {
+        font-size: 2.5vw;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    #dx-mid-page-row2-row4-title {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    #img-mid-pon-studenti{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    #dx-mid-page-row2-row4 {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+    }
+
+    #mid-page-row2-mid {
+        border-radius: 10px;
+    }
+
+    #mid-page-row2-text-mid {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-link-mid {
+        font-size: 2.4vw;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-table-mid{
+        width: 100%;
+        height: 40px;
+    }
+
+    /* Terza riga */
+
+    #mid-page-row3-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #title-row3-sx {
+        margin-bottom: 5px;
+        margin-top: 7px;
+    }
+
+    #mid-page-row3-row1-img-classeviva{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 3px;
+    }
+
+    #mid-page-row3-row2-img-albo-online{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row3-img-trasparente-amministrazione{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row4-img-comunicati{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row5-img-scuola-territorio{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #link-row3-sx {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row1-dx {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: auto;
+    }
+
+    #mid-page-row3-row2-dx {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: auto;
+    }
+
+    #mid-page-row3-row3-dx {
+        border-radius: 10px;
+        height: auto;
+        margin-top: 7px;
+        width: auto;
+    }
+
+    #mid-page-row3-row1-educazione-civica {
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row2-moodle{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row2-bionet{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-text-mid{
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-text-link-mid {
+        font-size: 2.4vw;
+        margin-bottom: 10px;
+    }
+
+    /* wac = webinar con Accademia dei Concordi */
+    #mid-page-row3-text-link-wac-mid {
+        font-size: 2.4vw;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-link-mid {
+        font-size: 2.7vw;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-subtitle-mid{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    #mid-page-row3-title-mid-marked-text{
+        background-color: yellow;
+    }
+
+    #img-mid-opendays{
+        width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+
+    /* Toglie i puntini negli elenchi */
+
+    #mid-page-list-text-mid{
+        list-style-type:none;
+    }
+}
+
+@media screen and (min-width: 768px) { /* MD */
+
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rm;
+    }
+
+    #link-row3-sx {
+        font-size: 2.4vw;
+    }
+
+    #mid-page-row2-link-mid {
+        font-size: 2vw;
+    }
+
+    p, ul {
+        font-size: 2.6vw;
+    }
+
+    #mid-page-row1-text-mid {
+        font-size: 2vw;
+    }
+
+    #mid-page-row1-title-mid {
+        font-size: 3vw;
+    }
+
+    #title-row3-sx {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 992px) { /* LG */
+
+    a.nav-link {
+        font-size: 1.3vw;
+    }
+
+    ul.dropdown-menu {
+        font-size: 1.1vw;
+    }
+
+    #mid-page-row1-title-mid {
+        font-size: 2vw;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    #mid-page-title-row2-mid {
+        font-size: 2vw;
+    }
+
+    #mid-page-row1-text-mid {
+        font-size: 1.4vw;
+    }
+
+    #mid-page-title-row1-sx {
+        font-size: 2.3vw;
+        margin-bottom: 2vw;
+    }
+
+    #mid-page-link-row1-sx {
+        font-size: 1.5vw;
+    }
+
+    #mid-page-row1-sx {
+        width: 22%;
+    }
+
+    #mid-page-row1-mid {
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+
+    #mid-page-row1-dx{
+        width: 25%;
+    }
+
+    #mid-page-title-row1-dx {
+        font-size: 2.3vw;
+    }
+
+    #title-row2-sx {
+        font-size: 2vw;
+    }
+
+    #link-row2-sx {
+        font-size: 1.5vw;
+    }
+
+    #mid-page-row2-sx {
+        height: 60%;
+        width: 22%
+    }
+
+    #mid-page-row3-row1-dx {
+        margin-top: 8%;
+    }
+
+    #mid-page-row2-link-mid {
+        font-size: 1.2vw;
+    }
+
+    #mid-page-row2-mid {
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+
+    p, ul {
+        font-size: 1.2vw;
+    }
+
+    #dx-mid-page-row2-row1 {
+        margin-top: 8%;
+    }
+
+    #title-row2-row1-dx {
+        font-size: 1.7vw;
+    }
+
+    #dx-mid-page-row2-row2-title {
+        font-size: 2vw;
+    }
+
+    #dx-mid-page-row2-row3-title {
+        font-size: 2vw;
+    }
+
+    #dx-mid-page-row2-row3-subtitle {
+        font-size: 1.6vw;
+    }
+
+    #link-row2-row3-dx {
+        font-size: 1.4vw;
+    }
+
+    #dx-mid-page-row2-row4-title  {
+        font-size: 1.8vw;
+    }
+
+    #mid-page-row2-row1-img-gstreet  {
+        width: 50%;
+        height: auto;
+        margin-right: 23%;
+    }
+
+    #mid-page-row2-row1-img-mask {
+        width: 50%;
+        height: auto;
+        margin-right: 23%;
+    }
+
+    #mid-page-row3-sx {
+        width: 22%;
+        height: 60%;
+    }
+
+    #link-row3-sx {
+        font-size: 1.4vw;
+    }
+
+    #title-row3-sx {
+        font-size: 2vw;
+    }
+
+    #mid-page-row3-text-link-mid {
+        font-size: 1.4vw;
+    }
+
+    #mid-page-row3-link-mid {
+        font-size: 1.4vw;
+    }
+
+    #mid-page-row3-text-link-wac-mid {
+        font-size: 1.4vw;
+    }
+
+    #mid-page-row2-text-mid {
+        font-size: 1.6vw;
+    }
+
+    #mid-page-row3-text-mid {
+        font-size: 1.6vw;
+    }
+
+    /* Rimette i puntini negli elenchi */
+
+    #mid-page-list-text-mid{
+        list-style-type: disc;
+        margin-left: 1vw;
+    }
+}
+
+@media screen and (min-width: 1200px) { /* XL */
+
+    #img-top-page-repubblica-it {
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+
+    #img-top-page-certiquality {
+        margin-right: 7%;
+    }
+
+}
+
+@media screen and (min-width: 1400px) { /* XXL */
+
+    #mid-page-row3-row3-dx {
+        width: 100%;
+    }
+
+    #img-top-page-certiquality {
+        max-width: 170px;
+    }
+
+}
